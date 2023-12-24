@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/145d205ae658a0c7b2834d37ea8f3525.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    background: rgba(225, 225,225,0,2);
+    text-align: center;
+    padding: center;
+    color: white;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(225,225,225,0,2);
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 6px;
+    margin-top: 40px;
+}
+
+.medsos img {
+    width: 30px;
+    margin: 30px 5px;
+    cursor: pointer;
+}
